@@ -6,9 +6,9 @@ public NeuralNetwork CustomNN {
     return NeuralNetowrkSettings.NeuralNetworkTypes.Feedforward;
   }
   NeuralNetworkBase[] NeuralNetworkBases() {
-    int[] LayerSizes = { 3, 5, 1 };
+    int[] LayerSizes = new int[] { 3, 5, 1 };
     NeuralNetworkBase nnb = new NeuralNetworkBase(LayerSizes);
-    NeturalNetworkBase[] rv  = { nnb };
+    NeturalNetworkBase[] rv  = new NeuralNetworkBase[] { nnb };
     return rv;
   }
   NeuralNetworkSettings.OptimizationMethods OptimizationMethod() {
