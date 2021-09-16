@@ -1,4 +1,4 @@
-#Usage
+# Usage
 Just use the interface NeuralNetwork to create your custom neural network class.
 ````c#
 public NeuralNetwork CustomNN {
